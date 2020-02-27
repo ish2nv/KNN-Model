@@ -15,6 +15,23 @@ Below, is the accuracy of predictions in the KNN algorithm.
    - K = 1
    - Accuracy = 0.76
 
+# 5-Fold Cross Validation 
+
+5 Cross Validation is a technique that would be implemented to assess the performance of the machine learning model. The procedure consisted of a single parameter called the “n” which denotes to the number of groups or sections that given data set is to be split into. In this occurrence, the data sample was split into 5 groups, thus why term 5-fold cross validation was used. 
+
+I first ensured that the test set would be present in each of the folds after every iteration (e.g. the test set would be in first fold for the first iteration, then go to second fold in second iteration etc.) Then, I computed the accuracy for the test set using confusion matrix with the following formula (TP + TN/TN+FN+TP+FP.) After, it got slightly tricky as I had to sort each of the rows in the training set to the correct fold specified in the ‘folds’ column. Once I had done this, I added the training sets to the correct fold and computed the accuracy via confusion matrix. Then, I computed the average accuracy for each iteration. Finally, I averaged the accuracy for each iteration again, giving me the overall accuracy. I then experimented with different k values (e.g. [1,3,5,7,9,11,…39]), to find the best k. the full results can be found in the [grid.results.txt] (https://github.com/ish2nv/KNN-Model/blob/master/KNNModel_CW/Knn%20(Java%20version)/KNNModel/src/grid.results.txt) file under src in the project directory.
+The method is known to be comprehendible and produces less biased or less optimistic estimate of the model skill. 
+
+## Matrix 
+In order to test the 5- fold model in its efficiency to perform, the confusion matrices were used to find our accuracy. The original 5-fold results will iterate 5 times. Each time their will be a new “test set” with a different or possibly the same confusion matrix. Same thing applies with “train set” in which each row has its own specific fold.  This will continue until the program is able to compute the overall accuracy. Once I found the best k and accuracy in the 5-cross validation, I created a confusion matrix on the test dataset. From this matrix, I was able to compute the sensitivity, precision and specificity of the data. Results can be seen below. 
+
+
+
+
+
+
+
+
 
 # Dataset
 
