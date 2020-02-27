@@ -25,6 +25,14 @@ The method is known to be comprehendible and produces less biased or less optimi
 ## Matrix 
 In order to test the 5- fold model in its efficiency to perform, the confusion matrices were used to find our accuracy. The original 5-fold results will iterate 5 times. Each time their will be a new “test set” with a different or possibly the same confusion matrix. Same thing applies with “train set” in which each row has its own specific fold.  This will continue until the program is able to compute the overall accuracy. Once I found the best k and accuracy in the 5-cross validation, I created a confusion matrix on the test dataset. From this matrix, I was able to compute the sensitivity, precision and specificity of the data. Results can be seen below. 
 
+### Accuracy results 
+
+| K | 1 | 3 | 5 | 7 | 9 | 11 | 13 | 15 | 17 | 19 | 21 | 23 | 25 | 27 | 29 | 31 | 33 | 35 | 37 | 39 |
+| ------------- |:-------------:| -----:|
+| Accuracy | 0.76 | 0.63 | 0.67 | 0.65 | 0.66 | 0.66 | 0.60 | 0.63 | 0.64 | 0.65 | 0.61 | 0.61 | 0.59 | 0.62 | 0.63 | 0.61 | 0.63 | 0.62 | 0.62 | 0.63 |
+
+
+
 
 
 # Dataset
