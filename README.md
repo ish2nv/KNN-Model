@@ -32,7 +32,11 @@ In order to test the 5- fold model in its efficiency to perform, the confusion m
 | Accuracy | 0.76 | 0.63 | 0.67 | 0.65 | 0.66 | 0.66 | 0.60 | 0.63 | 0.64 | 0.65 | 0.61 | 0.61 | 0.59 | 0.62 | 0.63 | 0.61 | 0.63 | 0.62 | 0.62 | 0.63 |
 
 
-
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
 
 # Dataset
