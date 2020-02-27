@@ -28,7 +28,7 @@ In order to test the 5- fold model in its efficiency to perform, the confusion m
 
 
 
-
+[grid.results.txt](https://github.com/ish2nv/KNN-Model/blob/master/KNNModel_CW/Knn%20(Java%20version)/KNNModel/src/grid.results.txt)
 
 
 
