@@ -1,13 +1,20 @@
 # Dataset
 
 We used Adult Income Data which was published in 1996, this data set came with test data which had 45222 instances, which consist of 3620 unknown random missing data which was denoted by a “?”. This data set consisted of 15 features:
-*	Age 	*	Sex
-*	fnlwgt	*	Capital Gain 
-*	Education 	*	Hours per week 
-*	Education Num 	*	Capital Loss 
-*	Marital Status 	*	Native Country 
-*	Occupation 	*	Earns 
-*	Relationship 	*	Working Class 
+*	Age 	
+*	Sex
+*	fnlwgt	
+*	Capital Gain 
+*	Education 	
+*	Hours per week 
+*	Education Num 	
+*	Capital Loss 
+*	Marital Status 	
+*	Native Country 
+*	Occupation 	
+*	Earns 
+*	Relationship 	
+*	Working Class 
 *	Race	
 
 Moreover, the data has only two classes, under the feature name Earns ,which represents whether an individual earns more than £50,000 or less than £50,000 a year; in order to predict whether the income was indeed higher or lower than 50k, we used classification algorithms to predict, using the data point to see if a person earns more than 50k or not, whereby machine learning algorithms tools such as: K Nearest Neighbours, confusion matrix, 5-Fold Cross Validation were implemented. 
