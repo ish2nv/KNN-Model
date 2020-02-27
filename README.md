@@ -35,10 +35,6 @@ Best K results:  K= 1 with the accuracy of 0.76
 
 ### Confusion Matrix results
 
-Test Set Confusion Matrix: [[151, 0], [49, 0]]
-Sensitivity: 1.0
-precision: 0.76
-Specificity: 0.0
 
 | Test Set Confusion Matrix | [[151, 0], [49, 0]] | 
 | ------------- |:-------------:|
