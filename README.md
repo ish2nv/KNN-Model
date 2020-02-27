@@ -40,9 +40,8 @@ Sensitivity: 1.0
 precision: 0.76
 Specificity: 0.0
 
-| Confusion Matrix result | 
-| ------------- |:-------------:|
 | Test Set Confusion Matrix | [[151, 0], [49, 0]] | 
+| ------------- |:-------------:|
 | Sensitivity | 1.0 | $1600 |
 | precision | 0.76 | $12 |
 | Specificity | 0.0 | $1 |
