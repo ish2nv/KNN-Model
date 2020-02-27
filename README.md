@@ -27,12 +27,6 @@ In order to test the 5- fold model in its efficiency to perform, the confusion m
 
 
 
-
-[grid.results.txt](https://github.com/ish2nv/KNN-Model/blob/master/KNNModel_CW/Knn%20(Java%20version)/KNNModel/src/grid.results.txt)
-
-
-
-
 # Dataset
 
 We used Adult Income Data which was published in 1996, this data set came with test data which had 45222 instances, which consist of 3620 unknown random missing data which was denoted by a “?”. This data set consisted of 15 features:
